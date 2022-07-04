@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: lightgray;
+    font-family: 'Oswald', sans-serif;
+    
+}
+#titlecard{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    background-color: white;
+    margin-left: 20vw;
+    margin-top: 5vh;
+    justify-content: right;
+}
+#name{
+   padding: 40vh 2vw;
+}
+#titleName{
+    font-size: 2.5em;
+}
+#titleDescription{
+    font-size: 1em;
+    color: #989a9c;
+}
+#viewWork{
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid lightgray;
+    border-radius: 2em;
+    padding: 10px 50px;
+}
+#viewWork:hover{
+    color: crimson;
+}
+#backGroundImage{
+    width: 55vw;
+    height: 100vh;
+}
+#empty{
+    height: 5vh;
+    background-color: white;
+    list-style: none;
+}
+#work{
+    margin-top: 7vh;
+    width: 75vw;
+}
+#ourWork{
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    height: 8vh;
+    padding-top: 2vh;
+}
+#firstImage{
+    width: 75vw;
+    margin-bottom: 2.5vh;
+}
+#secondImage{
+    width: 75vw;
+}
+#firstImageName{
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+    height: 8vh;
+    padding-top: 2.5vh;
+    font-size: x-large;  
+    font-weight: bold; 
+}
+#aerial{
+    width: 75vw; 
+}
+#thirdImage{
+    width: 75vw;
+}
+#secondImageName{
+    text-align: center;
+    background-color:rgb(200, 200, 200) ;
+    height: 8vh;
+    padding-top: 2.5vh;
+    font-size: x-large; 
+    font-weight: bold;
+}
+#abstract{
+    width: 75vw;
+}
+#fourthImage{
+    width: 75vw;
+    height: 90vh;
+}
+#thirdImageName{
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+    height: 8vh;
+    padding-top: 2.5vh;
+    font-size: x-large; 
+    font-weight: bold;
+}
+
+
